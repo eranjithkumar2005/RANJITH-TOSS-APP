@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toss App</title>
+
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+
+<body>
+
+    <h1>Heads   or   Tails</h1>
+
+    <h2>{{ result }}</h2>
+
+    <form method="GET">
+        <button type="submit">Toss</button>
+    </form>
+
+</body>
+
+</html>
